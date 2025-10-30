@@ -1,5 +1,6 @@
 # AI-filter
 AI 필터링(차별)
+```mermaid
 graph TD
     A[1. 사용자 인터페이스 (Frontend)] --> B{2. API 서버 (Backend)}
     B --> C[3. 기반 LLM (Base LLM) 호출]
